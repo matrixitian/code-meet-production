@@ -1,0 +1,29 @@
+{
+  "name": "codemeet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./server/index.js",
+  "scripts": {
+    "start": "node ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClassHero/CodeMeet2.git"
+  },
+  "author": "Holiday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClassHero/CodeMeet2/issues"
+  },
+  "homepage": "https://github.com/ClassHero/CodeMeet2#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.6.3",
+    "socket.io": "^2.3.0",
+    "validator": "^11.1.0"
+  }
+}
